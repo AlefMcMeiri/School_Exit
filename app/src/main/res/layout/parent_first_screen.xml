@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/background_sign_up"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome back, Ori"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:id="@+id/tvWelcome"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please choose one of the options"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Watch requests"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/btnWatchRequestsPARENT"
+        android:background="@drawable/rounded_button_blue_background"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:text="New Request"
+        android:id="@+id/btnCreateRequest"
+        android:background="@drawable/rounded_button_blue_background"
+        android:textSize="40sp" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">School_Exit</string>
+    <string name="choose_child">spinner choose child</string>
+    <string name="choose_reason">spinner choose reason</string>
+    <string name="spinner_kid_class_grade">spinner kid class grade</string>
+    <string name="spinner_kid_class_number">spinner kid class number</string>
+    <string name="spinner_teacher_class_grade">spinner teacher class grade</string>
+    <string name="spinner_teacher_class_number">spinner teacher class number</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.school_exit">
+
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/school_exit_logo_100"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/school_exit_logo_100"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.School_Exit">
+        <activity android:name=".MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".ManageProfile" />
+
+        <receiver
+            android:name=".SMSreceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".UserActivityWatchRequests" />
+        <activity android:name=".ParentAddKids" />
+        <activity android:name=".ParentCreateRequest" />
+        <activity android:name=".ParentFirstScreenActivity" />
+        <activity android:name=".TeacherActivity" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".SignIn">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_by_child"
+        android:title="By child"
+        android:orderInCategory="100"
+        android:icon="@color/cardview_dark_background"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_by_parent"
+        android:title="By parent"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_by_day"
+        android:title="By day"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_by_month"
+        android:title="By month"
+        android:orderInCategory="400"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_by_reason"
+        android:title="By reason"
+        android:orderInCategory="500"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_all_requests"
+        android:title="All requests"
+        android:orderInCategory="600"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_manage_profile"
+        android:title="Manage profile"
+        android:orderInCategory="700"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_exit"
+        android:title="Exit"
+        android:orderInCategory="800"
+        app:showAsAction="never"
+        />
+
+
+</menu>

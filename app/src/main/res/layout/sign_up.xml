@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/background_main_activity"
+    tools:context=".SignUpActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="App Registration"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        />
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="157dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="3dp"
+                android:text="First Name"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:inputType="textCapWords"
+                android:id="@+id/signUpScreenEtFirstName"
+                android:background="@drawable/custom_input_edit_text"
+                android:drawablePadding="8dp"
+                android:drawableStart="@drawable/custom_person_icon"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                />
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textColor="#D12929"
+                android:id="@+id/singUpScreenTvFirstName"
+                android:text="Invalid first name"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="157dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="3dp"
+                android:text="Last Name"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:inputType="textCapWords"
+                android:id="@+id/signUpScreenEtLastName"
+                android:background="@drawable/custom_input_edit_text"
+                android:drawablePadding="8dp"
+                android:drawableStart="@drawable/custom_person_icon"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textColor="#D12929"
+                android:id="@+id/singUpScreenTvLastName"
+                android:text="Invalid last name"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="157dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="3dp"
+                android:text="Phone number"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:id="@+id/signUpScreenEtPhoneNumber"
+                android:inputType="phone"
+                android:drawablePadding="8dp"
+                android:drawableStart="@drawable/custom_phone_icon"
+                android:background="@drawable/custom_input_edit_text"
+                android:paddingStart="10dp"
+                android:paddingEnd="5dp"
+                />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textColor="#D12929"
+                android:id="@+id/singUpScreenTvPhoneNumber"
+                android:text="Invalid phone number"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="157dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="3dp"
+                android:text="Personal ID"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:id="@+id/signUpScreenEtPersonalId"
+                android:inputType="number"
+                android:drawablePadding="8dp"
+                android:drawableStart="@drawable/custom_id_icon"
+                android:background="@drawable/custom_input_edit_text"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textColor="#D12929"
+                android:id="@+id/singUpScreenTvId"
+                android:text="Invalid ID"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="390dp"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="157dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="3dp"
+                android:text="Password"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:inputType="textPassword"
+                android:id="@+id/signUpScreenEtPassword"
+                android:drawableStart="@drawable/custom_lock_icon"
+                android:background="@drawable/custom_input_edit_text"
+                android:drawablePadding="8dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#D12929"
+                android:textSize="13sp"
+                android:id="@+id/singUpScreenTvPassword"
+                android:text="6 digits or more"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical"
+        >
+
+            <TextView
+                android:layout_width="157dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="3dp"
+                android:text="Retype password"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                />
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:id="@+id/signUpScreenEtConfirmPassword"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/custom_lock_icon"
+                android:background="@drawable/custom_input_edit_text"
+                android:drawablePadding="8dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textColor="#D12929"
+                android:id="@+id/singUpScreenTvConfirmPassword"
+                android:text="Passwords don't match"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Teacher"
+            android:id="@+id/signUpScreenRadioButtonTeacher"
+            />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Parent"
+            android:id="@+id/signUpScreenRadioButtonParent"
+            />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#D12929"
+        android:textSize="13sp"
+        android:id="@+id/singUpScreenTvRb"
+        android:text="Choose teacher or parent"
+        />
+
+    <ImageButton
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:id="@+id/signUpScreenIbPicture"
+        android:background="@drawable/camera_photo_foreground"
+        />
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#D12929"
+        android:textSize="13sp"
+        android:id="@+id/singUpScreenTvPicture"
+        android:text="Take a picture of yourself"
+        />
+
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:textSize="11sp"
+        android:text="Create Account"
+        android:id="@+id/signUpScreenBtnCreateAccount"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button_blue_background"
+        />
+
+
+</LinearLayout>

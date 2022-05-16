@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="165dp"
+        android:id="@+id/firstScreenLogo"
+        android:background="@drawable/school_exit_logo_100"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:textSize="30sp"
+        android:text="Welcome To School Exit!"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+</LinearLayout>

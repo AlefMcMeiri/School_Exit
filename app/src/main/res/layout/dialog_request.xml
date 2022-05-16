@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="390dp"
+    android:layout_height="670dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background_dialogs">
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:text="Request number"
+        android:layout_gravity="center"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:id="@+id/dialogRequestTvNumber"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:text="Child name: "
+            android:gravity="left"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:textSize="25sp"
+            android:gravity="left"
+            android:id="@+id/teacherDialogRequestTvChildName"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:text="Parent name: "
+            android:gravity="left"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:textSize="25sp"
+            android:gravity="left"
+            android:id="@+id/teacherDialogRequestTvParentName"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="160dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="50dp"
+            android:text="Date of release "
+            android:textColor="@color/black"
+            android:gravity="left"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:textSize="25sp"
+            android:gravity="left"
+            android:id="@+id/teacherDialogRequestTvDate"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:text="Time of release: "
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:gravity="left"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:textSize="25sp"
+            android:gravity="left"
+            android:id="@+id/teacherDialogRequestTvTime"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:text="Reason: "
+            android:gravity="left"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:textSize="25sp"
+            android:gravity="left"
+            android:id="@+id/teacherDialogRequestTvReason"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="370dp"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:text="Parent note: "
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:gravity="left"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:text=""
+            android:textSize="25sp"
+            android:gravity="left"
+            android:id="@+id/teacherDialogRequestTvNote"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        >
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:text="DENY"
+            android:background="@drawable/rounded_button_white_background"
+            android:id="@+id/teacherDialogRequestBtnDeny"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="45dp"
+            android:text="APPROVE"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button_white_background"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/teacherDialogRequestBtnApprove"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:text="CANCEL"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button_white_background"
+        android:id="@+id/teacherDialogRequestBtnCancel"
+        />
+
+</LinearLayout>

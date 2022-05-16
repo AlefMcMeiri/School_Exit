@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_height="610dp"
+    android:background="@drawable/background_dialogs">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Kid details:"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="30sp"
+        />
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="3dp"
+            android:text="First Name"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:inputType="textCapWords"
+            android:id="@+id/parentUpdateChildEtFirstName"
+            android:hint="First Name"
+            android:background="@drawable/custom_input_edit_text"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/custom_person_icon"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textColor="#D12929"
+            android:id="@+id/parentUpdateChildTvFirstName"
+            android:text="Invalid first name"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/black"
+            android:text="Last Name"
+            android:textSize="16sp"
+            />
+
+        <EditText
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:inputType="textCapWords"
+            android:hint="Last Name"
+            android:id="@+id/parentUpdateChildEtLastName"
+            android:background="@drawable/custom_input_edit_text"
+            android:drawablePadding="8dp"
+            android:drawableStart="@drawable/custom_person_icon"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            />
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="13sp"
+            android:textColor="#D12929"
+            android:id="@+id/parentUpdateChildTvLastName"
+            android:text="Invalid first name"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="left"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/parentUpdateChildTvId"
+        android:text="Id: "
+        />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Grade"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="Number of class"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="12sp"
+            />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="class:"
+
+            />
+        <Spinner
+            android:id="@+id/parentUpdateChildSpinnerGrade"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:prompt="@string/spinner_kid_class_grade"
+            />
+
+        <Spinner
+            android:id="@+id/parentUpdateChildSpinnerNumber"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:prompt="@string/spinner_kid_class_number"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        >
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:text="UPDATE"
+            android:background="@drawable/rounded_button_white_background"
+            android:id="@+id/parentUpdateChildBtnUpdate"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/rounded_button_white_background"
+            android:text="DELETE"
+            android:textColor="@color/white"
+            android:id="@+id/parentUpdateChildBtnDelete"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="CANCEL"
+        android:textColor="@color/white"
+        android:background="@drawable/rounded_button_white_background"
+        android:id="@+id/parentUpdateChildBtnCancel"
+        android:layout_marginTop="12dp"
+        />
+
+
+</LinearLayout>
